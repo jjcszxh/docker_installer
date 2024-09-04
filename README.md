@@ -21,7 +21,7 @@ sudo curl -fsSL https://github.com/jjcszxh/docker_installer/releases/download/la
 
 > 备用（如果Github访问不了，可以使用Gitee的链接）<br>
 ```
-sudo curl -fsSL https://gitee.com/tech-shrimp/docker_installer/releases/download/latest/linux.sh| bash -s docker --mirror Aliyun
+sudo curl -fsSL https://gitee.com/jjcszxh/docker_installer/releases/download/latest/linux.sh| bash -s docker --mirror Aliyun
 ```
 
 启动docker
