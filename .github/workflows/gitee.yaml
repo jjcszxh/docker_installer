@@ -1,9 +1,13 @@
 name: Sync Github Repos To Gitee
 
 on:
+  workflow_dispatch:
+  schedule:
+    - cron: '00 23 * * *'
   push:
     branches:
       - master
+
 
 jobs:
   build:
